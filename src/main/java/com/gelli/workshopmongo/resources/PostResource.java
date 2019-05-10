@@ -11,7 +11,7 @@ import com.gelli.workshopmongo.domain.Post;
 import com.gelli.workshopmongo.services.PostService;
 
 @RestController
-@RequestMapping(value="/post")
+@RequestMapping(value="/posts")
 public class PostResource {
 	
 	@Autowired
@@ -24,3 +24,4 @@ public class PostResource {
 	}
 	
 }
+ 
